@@ -1,0 +1,38 @@
+nav {
+    margin-bottom: 0 !important;
+}
+
+/* Container styles */
+.container{
+    padding:5%;
+}
+
+.container .img{
+    text-align:center;
+}
+
+.container .details{
+    border-left:3px solid #ded4da;
+}
+
+.container .details p{
+    font-size:15px;
+    font-weight:bold;
+}
+
+/* Item list */
+.my-items {
+    margin-top: 5% !important;
+}
+
+.posted-item {
+    max-width: 50px !important;
+}
+
+.btn-outline-success .material-icons {
+    color: #4caf50 !important;
+}
+
+.btn-outline-danger .material-icons {
+    color: #f44336 !important;
+}
