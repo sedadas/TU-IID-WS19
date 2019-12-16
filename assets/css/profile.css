@@ -28,11 +28,3 @@ nav {
 .posted-item {
     max-width: 50px !important;
 }
-
-.btn-outline-success .material-icons {
-    color: #4caf50 !important;
-}
-
-.btn-outline-danger .material-icons {
-    color: #f44336 !important;
-}

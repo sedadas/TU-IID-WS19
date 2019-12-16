@@ -22,10 +22,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/item.html">Lost Items</a>
-                </li>
                 <li class="nav-item active">
+                    <a class="nav-link" href="#">Lost Items</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#">Found Items</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -33,27 +33,24 @@
                         <i class="material-icons">person_outline</i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="profileDropdown">
-                        <a class="dropdown-item" href="#">Profile</a>
-                        <a class="dropdown-item" href="#">My Items</a>
-                        <a class="dropdown-item" href="#">Logout</a>
+                        <a class="dropdown-item" href="profile.html">Profile</a>
+                        <a class="dropdown-item" href="login.html">Logout</a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
-    
 
     <h1 align="center">Report found item</h1>
-    
-    
+
     <div class="d-flex justify-content-center">
         <form>
-                
+
             <div class="form-group">
                 <label for="title" class="bmd-label-floating">Title*</label>
                 <input type="text" class="form-control" id="title" required>
             </div>
-            
+
             <div class="form-group">
                 <label for="event" class="bmd-label-floating">Event*</label>
                 <select class="form-control" id="event" required>
@@ -63,42 +60,42 @@
                     <option>Fight in "The Drunk Stewardess" Pub</option>
                 </select>
             </div>
-                    
+
             <div class="form-group">
                 <label for="email" class="bmd-label-floating">Email*</label>
                 <input type="email" class="form-control" id="email" required>
             </div>
-                    
+
             <div class="form-group">
                 <label for="phone" class="bmd-label-floating">Phone number</label>
                 <input type="tel" class="form-control" id="phone">
             </div>
-            
+
             <div class="form-group">
                 <label for="description" class="bmd-label-floating">Description</label>
                 <textarea class="form-control" id="description" cols="50" rows="5"></textarea>
             </div>
-            
+
             <div class="form-group photos">
                 <label for="photos">Upload photos*</label>
                 <input type="file" class="form-control-file" id="photos" required>
             </div>
-            
+
             <small class="form-text text-muted">* required fields</small>
-            
+
             <div class="float-right">
                 <button class="btn btn-raised btn-default">Cancel</button>
                 <button type="submit" class="btn btn-raised btn-primary">Save</button>
             </div>
-                    
+
         </form>
     </div>
-    
-    
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
     <script src="../assets/js/common.js"></script>
-    
+
 </body>
 </html>
