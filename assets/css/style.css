@@ -6,3 +6,14 @@ html, body {
 nav {
     margin-bottom: 2% !important;
 }
+
+.btn-primary {
+    background-color: #bbf4f7 !important;
+}
+.w-full {
+    width: 100%;
+}
+
+.container {
+    margin-top: 30px !important;
+}
