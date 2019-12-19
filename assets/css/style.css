@@ -19,3 +19,7 @@ nav {
     display: inline !important;
     vertical-align: middle;
 }
+
+.action-buttons {
+    display: block ruby !important;
+}
