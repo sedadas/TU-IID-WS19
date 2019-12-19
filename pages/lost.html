@@ -6,13 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LOOF - Home</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet"
-        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
-        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </head>
 <body>
 <!-- Navbar -->
@@ -28,10 +24,10 @@
         <a class="nav-link" href="../index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../pages/lost.html">Lost Items</a>
+        <a class="nav-link" href="lost.html">Lost Items</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../pages/found.html">Found Items</a>
+        <a class="nav-link" href="found.html">Found Items</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown"
@@ -39,7 +35,7 @@
           <i class="material-icons">person_outline</i>
         </a>
         <div class="dropdown-menu" aria-labelledby="profileDropdown">
-          <a class="dropdown-item" href="../pages/profile.html">Profile</a>
+          <a class="dropdown-item" href="profile.html">Profile</a>
           <a class="dropdown-item" href="login.html">Logout</a>
         </div>
       </li>
@@ -66,14 +62,13 @@
       </div>
       <div class="col-12 col-md-5">
         <select class="form-control custom-select" name="dateOrder">
-          <option value="NONE">Datum</option>
-          <option value="ASCENDING">Datum aufsteigend</option>
-          <option selected="selected" value="DESCENDING">Datum absteigend</option>
+          <option value="ASCENDING">Date ascending</option>
+          <option selected="selected" value="DESCENDING">Date descending</option>
         </select>
       </div>
 
       <div class="col-12 col-md-2">
-        <button class="btn btn-primary w-full" type="button">Search</button>
+        <button class="btn btn-primary btn-raised w-full" type="button">Search</button>
       </div>
 
     </div>
@@ -118,6 +113,7 @@
 <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
         integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
         crossorigin="anonymous"></script>
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 <script src="../assets/js/common.js"></script>
 </body>
 </html>
